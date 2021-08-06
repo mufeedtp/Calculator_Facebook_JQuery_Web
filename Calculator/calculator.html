@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Calculator</title>
+<link rel="stylesheet" href="calculator.css">
+<script src="calculator.js"></script>
+<body>
+    <div class="main-body">
+        <div class="calc">
+            <label id="calc-title">Mufeed's Calculator</label>
+            <div class="calc-inner">
+                <div class="clac-screen">
+                    <input id="claculator-screen" type="text">
+                </div>
+                <div class="buttons">
+                    <div class="row">
+                        <button onclick="clearscreen()" class="btn">AC</button>
+                        <button onclick="deleteLastDigit()" class="btn" >Del</button>
+                        <button onclick="calc('%')" class="btn" >%</button>
+                        <button onclick="calc('/')" class="btn">/</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="calc(7)" class="btn" >7</button>
+                        <button onclick="calc(8)" class="btn" >8</button>
+                        <button onclick="calc(9)" class="btn">9</button>
+                        <button onclick="calc('*')" class="btn">x</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="calc(4)" class="btn">4</button>
+                        <button onclick="calc(5)" class="btn">5</button>
+                        <button onclick="calc(6)" class="btn">6</button>
+                        <button onclick="calc('-')" class="btn">-</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn" onclick="calc(1)">1</button>
+                        <button class="btn" onclick="calc(2)">2</button>
+                        <button class="btn" onclick="calc(3)">3</button>
+                        <button class="btn" onclick="calc('+')">+</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn" onclick="Boldfont()">Strong</button>
+                        <button onclick="calc(0)" class="btn" >0</button>
+                        <button onclick="calc('.')" class="btn" >.</button>
+                        <button onclick="equal()" class="btn" >=</button>
+                    </div>
+
+                    <!-- <div class="clc-plusbtn">
+                        <button id="plusbtn">+</button>
+                    </div>
+                    <div class="clc-minussbtn">
+                        <button id="minussbtn">-</button>
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

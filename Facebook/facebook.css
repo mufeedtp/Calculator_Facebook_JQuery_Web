@@ -1,0 +1,132 @@
+.header {
+    width: 100%;
+    background-color: #3b5998;
+    height: 70px;
+    float: left;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+
+}
+body{
+    margin: 0ex;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.facebook-logo-text{
+    color: white;
+    margin-left: 16%;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.forget-password{
+    text-decoration: none;
+    color: rgb(200, 191, 191);
+    font-size: 11px;
+}
+.forget-password:hover{
+    text-decoration: underline;
+}
+.login-form{
+    margin-top: 5px;;
+    margin-left: 15%;
+    color: white;
+    font-size: 11px;
+}
+#login-button{
+    background-color:  #3b5998;
+    color: white;
+    border-color: #29487d;
+}
+
+#login-button:hover{
+    background-color:  #344f88;
+}
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 4%;
+    padding-top: 4%;
+    float: left;
+}
+.right-section{
+    width: 30%;
+    float: left;
+}
+.main-body{
+    width: 100%;
+    height: 700px;
+    background: lightgray;
+}
+
+.container{
+    background-color: lightgray;
+}
+
+.image-left-section{
+    width: 560px;
+    float: left;
+    height: 321px;
+}
+
+.sign-up-heading{
+    margin-top: 10%;
+}
+#create-account-label{
+    font-size: 200%;
+    font-weight: bold;
+}
+#create-account-sub-label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#first-name{
+    
+    margin-right: 6px;
+    width: 40%;
+    border-color: rgb(218, 214, 214);
+    border: 1px solid gray;
+}
+#first-name:focus{
+    outline: white;
+    /* border-color: rgb(218, 214, 214); */
+    box-shadow: 0 0 5px rgb(189, 189, 189);
+    
+}
+
+.inputText{
+    border-color: rgb(218, 214, 214);
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 22px;
+}
+
+.inputText:focus{
+    outline: white;
+    /* border-color: rgb(218, 214, 214); */
+    box-shadow: 0 0 5px rgb(189, 189, 189);
+ 
+}
+
+#surname{
+    border-radius: 4px;
+    height: 22px;
+    width: 40%;
+    box-shadow: 0 0 5px rgb(189, 189, 189);
+}
+
+.sign-up-content{
+    margin-top: 30px;
+}
+
+#mobile-or-email{
+    width: 85%;
+    height: 22px;
+    margin-bottom: 10px;
+}

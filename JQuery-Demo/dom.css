@@ -1,0 +1,29 @@
+#section{
+    width: 400px;
+    height: 300px;
+    background-color: cadetblue;
+}
+
+.top{
+    width: 100%;
+    height: 70px;
+    background-color: purple;
+}
+
+body{
+    margin: 0;
+}
+
+#top-btn{
+    width: 26px;
+    margin-top: 21px;
+    margin-left: 18px;
+    height: 23px;
+}
+
+#top-btn2{
+    width: 26px;
+    margin-top: 21px;
+    margin-left: 18px;
+    height: 23px;
+}

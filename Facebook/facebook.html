@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="facebook.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <h1 class="facebook-logo-text">facebook</h1>
+            </div>
+            <div class="login">
+                <form class="login-form" action="">
+                <table class="login-content">
+                    <tr>
+                        <td>Email or Phone</td>
+                        <td>Password</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="email" type="text">
+                        </td>
+                        <td>
+                            <input id="password" type="password">
+                        </td>
+                        <td>
+                            <button onclick="setEmail()" id="login-button">Log In</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <a class="forget-password" href="facebook.html">Forget account?</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para-left-section">
+                    sdsdsdsdsdssdsdsdsdsd
+                </p>
+                <img class="image-left-section" src="images/fb.png">
+            </div>
+            <div class="right-section">
+                <div class = "sign-up-heading">
+                    <div id="create-account-label">Create an account</div>
+                    <div id="create-account-sub-label">it's quick and easy.</div>
+                </div>
+                <div class="sign-up-content">
+                    <form id="singup-form" action="">
+                        <input type="text" class="inputText" name="firstname" id="first-name" placeholder="First name">
+                        <input type="text" class="inputText" name="Surname" id="surname" placeholder="Surname"><br>
+                        <input type="text" class="inputText" name="mobileoremail" id="mobile-or-email" placeholder="Mobile number or email address"><br>
+                        <input type="password" class="inputText" name="npasssword" id="new-passsword" placeholder="New password"><label id="lblpass" for="new-passsword" style="display: none;">Please enter valid password</label><br>
+                        
+                        <input type="password" class="inputText" name="cpasssword" id="confirm-new-passsword" placeholder="Confirm new password"><br>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="facebook.js"></script>
+</body>
+</html>
